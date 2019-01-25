@@ -10,7 +10,7 @@ body {
 .chat_window {
     position: absolute;
 
-    width: 800px;
+    width: 900px;
     height: fit-content;
     /* border-radius: 10px; */
     background-color: transparent;
@@ -136,7 +136,8 @@ body {
   width: calc(100% - 85px);
   min-width: 10px;
   position: relative;
-  max-width: -webkit-fill-available;
+  max-width: 700px;
+
 
 }
 .messages .message .text_wrapper::after, .messages .message .text_wrapper:before {
